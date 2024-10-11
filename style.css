@@ -2001,9 +2001,23 @@ font-size: 15px;}
 	background-color: #FFF8F4;
 	border-radius: 5px;
 }
+.card-img-top {
+	width: 100%; /* Menyesuaikan gambar dengan lebar card */
+	height: auto; /* Membuat gambar responsif */
+	border-radius: 5px 5px 0 0; /* Membuat sudut gambar atas membulat */
+	margin-bottom: 20px; /* Memberikan jarak antara gambar dan konten lainnya */
+  }
 
 .price-box-middle{
 	background-color: #D3A58C;
+}
+
+.thumbnail-pricing {
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 250px;
+	width: 150px;
+	border-radius: 100%;
 }
 
 .price-title {
