@@ -3328,7 +3328,7 @@ aside table caption,
 .el-subtitle{
 	margin-bottom: 30px;
 	position: relative;
-	font-size: 15px;
+	font-size: 18px;
 	display: inline-block;
 	font-weight: 700;
 }
@@ -3532,6 +3532,7 @@ footer .display-post-date{
 .widget_nav_menu li {
 	margin-bottom: 15px;
 	line-height: 1.7;
+	font-size: 18px
 }
 
 .widget_recent_entries li a,
@@ -3642,9 +3643,19 @@ footer .container {
 	margin-bottom: 50px;
 }
 
-.widget-footer{
-	text-align: left;
+
+@media (min-width: 992px) {
+	.widget-footer{
+		text-align: left;
+	}
 }
+
+@media (max-width: 992px) {
+	.widget-footer{
+		text-align: center;
+	}
+}
+
 
 .copyright {
     padding-top: 50px;
