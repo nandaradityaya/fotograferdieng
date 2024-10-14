@@ -2008,6 +2008,27 @@ font-size: 15px;}
 	margin-bottom: 20px; /* Memberikan jarak antara gambar dan konten lainnya */
   }
 
+  @media (min-width: 992px) {
+	.card-img-popular {
+		width: 100%; /* Menyesuaikan gambar dengan lebar card */
+		height: 561px!important; /* Membuat gambar responsif */
+		border-radius: 5px 5px 0 0; /* Membuat sudut gambar atas membulat */
+		margin-bottom: 20px; /* Memberikan jarak antara gambar dan konten lainnya */
+	  }
+	
+}
+
+@media (max-width: 992px) {
+	.card-img-popular {
+		width: 100%; /* Menyesuaikan gambar dengan lebar card */
+		height: auto; /* Membuat gambar responsif */
+		border-radius: 5px 5px 0 0; /* Membuat sudut gambar atas membulat */
+		margin-bottom: 20px; /* Memberikan jarak antara gambar dan konten lainnya */
+	  }
+	
+}
+
+
 .price-box-middle{
 	background-color: #D3A58C;
 }
