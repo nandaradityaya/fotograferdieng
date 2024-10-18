@@ -1869,7 +1869,8 @@ aside p {
 	border: 1px solid #4A7D6D;
 	padding: 15px;
 	line-height: 1;
-	border-radius: 5px;
+	border-radius: 50px;
+	background-color: #00AF87;
 }
 
 .icon-box-icon svg,
@@ -2024,6 +2025,10 @@ font-size: 15px;}
 		height: auto; /* Membuat gambar responsif */
 		border-radius: 5px 5px 0 0; /* Membuat sudut gambar atas membulat */
 		margin-bottom: 20px; /* Memberikan jarak antara gambar dan konten lainnya */
+	  }
+
+	  .packet-category {
+		text-align: center!important;
 	  }
 	
 }
